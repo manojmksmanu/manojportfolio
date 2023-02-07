@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio responsive complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"
+            ><img src="assets/img/logoprofile.png" alt=""
+          /></a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--====THEME BUTTON====-->
+      <div class="">
+        <i class="bx bxs-cog themebtn"></i>
+      </div>
+      <div class="theme-change">
+        <div class="dot" id="blue"></div>
+
+        <div class="dot" id="dark"></div>
+        <div class="dot" id="light"></div>
+        <div class="dot" id="orange"></div>
+        <div class="dot" id="yellow"></div>
+      </div>
+
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>नमस्ते</span><br />Hello.</h1>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+          <div id="hero-image">
+            <img
+              src="assets/img/profile.png"
+              alt=""
+              class="home__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/profile-pic.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Manoj</h2>
+            <span class="about__profession">Frontend Web Developer</span>
+            <p class="about__text">
+              🧾 A student pursuing an BCA degree with a passion for Website
+              development. Javascript make up my programming skills. In
+              addition,"I am a frontend developer with a passion for creating
+              intuitive and interactive websites. With expertise in HTML, CSS,
+              JavaScript, and ReactJS, I bring my technical skills to the table
+              to create engaging user experiences. Currently, I am continuously
+              learning and improving my craft to stay ahead of the latest
+              industry developments."
+            </p>
+
+            <div class="about__social">
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/manoj-kumar-05b2b91aa/"
+                class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                target="blank
+                            "
+                href="https://github.com/manojmksmanu"
+                class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Development</h3>
+            <span class="skills__name">Html</span>
+            <span class="skills__name">Css</span>
+            <span class="skills__name">Javascript</span>
+            <span class="skills__name">Scss</span>
+            <span class="skills__name">React</span>
+
+            <h3 class="skills__subtitle">Design</h3>
+            <span class="skills__name">Figma</span>
+            <span class="skills__name">Adobe XD</span>
+            <span class="skills__name">Photoshop</span>
+          </div>
+
+          <div class="skills__img">
+            <img src="assets/img/skill.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="assets/img/p1.JPG" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="blank"
+                href="https://github.com/manojmksmanu/rebuiltx"
+                class="portfolio__link-name"
+                ><img src="assets/img/github.png" alt=""
+              /></a>
+              <a
+                target="blank"
+                href="https://rebuiltx.software/"
+                class="portfolio__link-name"
+                ><img src="assets/img/search.png" alt=""
+              /></a>
+            </div>
+            <p>Frontend of IT-Agency</p>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/p2.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="blank"
+                href="https://github.com/manojmksmanu/first-ecommerce"
+                class="portfolio__link-name"
+                ><img src="assets/img/github.png" alt=""
+              /></a>
+              <a
+                target="blank"
+                href="https://yahaselelo.netlify.app/index.html"
+                class="portfolio__link-name"
+                ><img src="assets/img/search.png" alt=""
+              /></a>
+            </div>
+            <p>Complete Frontend Of Ecommerce</p>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/p3.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="blank"
+                href="https://github.com/manojmksmanu/Musicappbyjs"
+                class="portfolio__link-name"
+                ><img src="assets/img/github.png" alt=""
+              /></a>
+              <a
+                target="blank"
+                href="https://bestmusic12.netlify.app//"
+                class="portfolio__link-name"
+                ><img src="assets/img/search.png" alt=""
+              /></a>
+            </div>
+            <p>A Music Player Website</p>
+          </div>
+
+          <div class="portfolio__img">
+            <img src="assets/img/p5.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="blank"
+                href="https://github.com/manojmksmanu/mkportfolio"
+                ><img src="assets/img/github.png" alt=""
+              /></a>
+              <a
+                target="blank"
+                href="https://manojmksmanu.github.io/mkportfolio/"
+                class="portfolio__link-name"
+                ><img src="assets/img/search.png" alt=""
+              /></a>
+            </div>
+            <p>Portfolio website</p>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/p4.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="blank"
+                href="https://github.com/manojmksmanu/texttwister"
+                class="portfolio__link-name"
+                ><img src="assets/img/github.png" alt=""
+              /></a>
+              <a
+                target="blank"
+                href="https://steady-khapse-69bd52.netlify.app/"
+                class="portfolio__link-name"
+                ><img src="assets/img/search.png" alt=""
+              /></a>
+            </div>
+            <p>React project :- Texttwister</p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">manoj2022019@gmail.com</span>
+
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span class="contact__text">+91 9667328778</span>
+
+            <h3 class="contact__subtitle">ADRESS</h3>
+            <span class="contact__text"> Ghaziabad, UP</span>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input" />
+              <input type="mail" placeholder="Email" class="contact__input" />
+            </div>
+
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+
+            <input type="submit" value="Submit" class="contact__button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Manoj Kumar</h2>
+          <p class="footer__text">
+            I'm Manoj and this is my personal portfolio website
+          </p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li class="footer-item">
+              <a href="#home" class="footer__link">Home</a>
+            </li>
+            <li class="nav__itemf">
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li class="nav__itemf">
+              <a href="#skills" class="footer__link">Skills</a>
+            </li>
+            <li class="nav__itemf">
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li class="nav__itemf">
+              <a href="#Contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW</h2>
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/manoj-kumar-05b2b91aa/"
+            class="footer__social"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            target="blank"
+            href="https://www.instagram.com/manoj2002_/"
+            class="footer__social"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            target="blank
+                    "
+            href="https://github.com/manojmksmanu"
+            class="footer__social"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
