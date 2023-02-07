@@ -96,6 +96,11 @@ document.getElementById('orange').addEventListener('click', ()=>{
     document.getElementById('hero-image').innerHTML=`<img src="assets/img/profile-pic (4).png" alt="" class="home__img"> `
 
 })
+document.getElementById('pink').addEventListener('click', ()=>{
+    bodyStyles.setProperty('--first-color', '#ca0331');
+    document.getElementById('hero-image').innerHTML=`<img src="assets/img/profile.png" alt="" class="home__img"> `
+
+})
 
 
 
