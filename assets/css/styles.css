@@ -329,12 +329,31 @@ img {
   display: block;
   margin-bottom: var(--mb-4);
 }
-.about__social-icon {
-  font-size: 1.4rem;
-  margin: 0 var(--mb-1);
+.about__social{
+  display: flex;
+  gap: 10px;
 }
-.about__social-icon:hover {
+.download-cv{
+  padding: 0.5rem;
+  background-color: var(--first-color);
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+}
+.download-cv:hover{
+transform: scale(1.2);
+}
+.about__social-icon {
+  font-size: 1.6rem;
+  margin: 0 var(--mb-1);
   color: var(--first-color);
+ 
+}
+.about__social-icon i{
+  transition: 0.5s ease-in-out;
+  font-size: 1.6rem;
+}
+.about__social-icon i:hover{
+  transform: scale(1.5);
 }
 
 /* ===== SKILLS =====*/
